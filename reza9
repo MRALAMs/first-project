@@ -1,0 +1,6 @@
+#! /usr/bin/python3
+
+def jazr(adad):
+    return int(adad)**0.5
+a=input("kodamjazr? ")
+print(jazr(a))

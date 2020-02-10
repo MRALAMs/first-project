@@ -1,0 +1,6 @@
+#! /usr/bin/python3
+
+import mohasebat
+a=input("adadbde ")
+print("jazr adad ",mohasebat.jazr(int(a)))
+print("ghadr motlagh ",mohasebat.ghadr(int(a)))

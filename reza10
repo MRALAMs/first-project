@@ -1,0 +1,10 @@
+#! /usr/bin/python3
+
+def ghadr(adad1):
+    if int(adad1) > 0 :
+        return adad1
+    else :
+        return int(adad1)*(-1)
+b=input("ghadrkodamadad? ")
+print(ghadr(b))
+
