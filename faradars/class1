@@ -1,0 +1,11 @@
+#! /usr/bin/python3
+
+class time:
+    def timeprint(tt):
+        print(str(tt.hours)+":"+str(tt.minutes)+":"+str(tt.second))
+
+time1=time()
+time1.hours=10
+time1.minutes=48
+time1.second=30
+time1.timeprint()

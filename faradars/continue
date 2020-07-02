@@ -1,0 +1,15 @@
+#! /usr/bin/python3
+
+a=int(input("adad bede "))
+if a>1:
+    for i in range(2,a):
+        if a%i==0:
+            print(a,"is not prime")
+            break
+    else:
+        for j in range (2,i):
+            if i%j !=0:
+                print(i)
+        print(a,"is prime")
+else:
+    print(a,"is not prime")

@@ -1,0 +1,4 @@
+#! /usr/bin/python3
+
+with open('/home/opgate/reza/jame matris' , 'w') as f:
+    f.write("hellopy\n")

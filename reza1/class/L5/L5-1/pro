@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+class player:
+	def __init__(self,race): #Tabae sazandeh
+		self.HP=100 #sedazadan hamzaman self va noe meghdar aan
+		self.race=race
+		if self.race=='Human':
+			self.HP=110
+		else:
+			self.HP=100
+Ali=player('Human')
+print(Ali.HP)
+
+	

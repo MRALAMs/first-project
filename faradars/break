@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+value=9
+List=[]
+while value>0:
+    print (value)
+    value=value-1
+    List.append(value)
+    if value==6:
+        break
+print ("Don")
+print (List)

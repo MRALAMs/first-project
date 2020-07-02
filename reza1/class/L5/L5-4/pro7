@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+class player:
+	def __init__(self): 
+		self.level=1
+		self.HP=100
+	def levelup(self):
+		self.level+=1
+		self.HP+=10
+
+class Human(player):
+	def __init__(self):
+		player.__init__(self)
+		self.HP=110
+class Elf(player):
+	def levelup(self):
+		self.level+=1
+		self.HP+=15
+class Superhuman(Human,Elf):
+	pass
+Ali=Human()
+print('Ali HP & Level :')
+print(Ali.level)
+print(Ali.HP)
+print('Zahra HP & Level 1 :')
+Zahra=Elf()
+print(Zahra.level)
+print(Zahra.HP)
+print('Zahra HP & Level 2 :')
+Zahra.levelup()
+print(Zahra.level)
+print(Zahra.HP)
+print('Milad HP & Level  :')
+milad=Superhuman()
+print(milad.level)
+print(milad.HP)
+print('Milad HP & Level 2 :')
+milad.levelup()
+print(milad.level)
+print(milad.HP)

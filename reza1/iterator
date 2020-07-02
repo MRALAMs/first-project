@@ -1,0 +1,22 @@
+#! /usr/bin/python3
+
+class mylist():
+    def __init__ (self,data):
+        self.data=data
+        self.index=-1
+    def __next__(self):
+        if self.index >= len(self.data):
+            raise StopIteration
+        self.index+=1
+        return self.data[self.index]
+    def __iter__(self):
+        pass
+def main():
+    myit=mylist('ali')
+    print(myit.data)
+    print(myit.index)
+    print(next(myit))
+    print(next(myit))
+    print(next(myit))
+if __name__=="__main__":
+    main()  

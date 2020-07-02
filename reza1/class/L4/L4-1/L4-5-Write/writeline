@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+with open('myfile','w') as f :
+	f.write("Hello py\n")
+

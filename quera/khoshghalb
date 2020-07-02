@@ -1,0 +1,4 @@
+#! /usr/bin/python3
+
+a=input("chand bar? ")
+print(("man khosh ghalbam\n")*(int(a)))

@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+#for in range(10)
+#	print(i) #syntax Error
+#'Ali'+2 #typeError 
+#print(ali)#Name error
+try:
+	adad=input("adad bede")
+	print(int(adad)+1)
+except ValueError as E:
+	print("{} adad nist".format(adad))
+	print(E)
+except(RuntimeError,TypeError,SyntaxError):
+	pass #masalan kari dg anjam bde agar be in 3 error barkhord kard
+else:
+	print("ok")
+
+

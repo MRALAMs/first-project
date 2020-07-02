@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+class student:
+	pass
+ali=student()
+ali.name="Ali Javadi"
+ali.s_number=83
+ali.avrage=8.1
+
+print(ali)
+print(ali.name)
+print(ali.s_number)
+print(ali.avrage)
+
+

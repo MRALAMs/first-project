@@ -1,0 +1,43 @@
+#! /usr/bin/python3
+
+def moaadel(a,b,c,d):
+    sum=(int(a)*3+int(b)*4+int(c)*2+int(d)*1)*0.1
+    return sum
+name=input("name? ")
+math=input("math score? ")
+physics=input("physics score? ")
+dini=input("dini score? ")
+exercise=input("exercise score? ")
+if int(math)>20 or int(physics)>20 or int(dini)>20 or int(exercise)>20 :
+    print("eror")
+else:
+    print(name)
+    m=moaadel(math,physics,dini,exercise)
+    print("moaadel " ,m)
+    if m >=12 :
+        print("pass")
+    else:
+        m <=12
+        print("mashrot")
+x = input("daneshjo? ")
+if x == "yes":
+    name=input("name? ")
+    math=input("math score? ")
+    physics=input("physics score? ")
+    dini=input("dini score? ")
+    exercise=input("exercise score? ")
+    if int(math)>20 or int(physics)>20 or int(dini)>20 or int(exercise)>20 :
+        print("eror")
+    else:
+        print(name)
+        m=moaadel(math,physics,dini,exercise)
+        print("moaadel " ,m)
+        if m >=12 :
+            print("pass")
+        else:
+             m <=12
+             print("mashrot")
+    
+
+  
+

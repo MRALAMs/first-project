@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+
+class mylist():
+	def __init__(self,data):
+		self.data=data
+		self.index=-1
+	def __next__(self):
+		if self.index >= len(self.data):
+			raise StopIteration
+		self.index+=1
+		return self.data[self.index]
+	def __iter__(self):
+		pass
+	def __str__ (self):
+		return self.data
+
+myit=mylist('ali')
+print(next(myit))#a
+print(next(myit))#l
+print(next(myit))#i
+print(myit)#ali
+print(myit.data[1])#l
+
+
+
+		
+
+

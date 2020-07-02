@@ -1,0 +1,17 @@
+#! /usr/bin/python3
+
+list1=[
+[5,9,1],
+[23,-12,6],
+[-27,8,3]]
+list2=[
+[4,6,-11],
+[-9,31,0],
+[4,-16,-7]]
+listjame=[
+[int(list1[0][0])+int(list2[0][0]),int(list1[0][1])+int(list2[0][1]),int(list1[0][2])+int(list2[0][2])],
+[int(list1[1][0])+int(list2[1][0]),int(list1[1][1])+int(list2[1][1]),int(list1[1][2])+int(list2[1][2])],
+[int(list1[2][0])+int(list2[2][0]),int(list1[2][1])+int(list2[2][1]),int(list1[2][2])+int(list2[2][2])]]
+print(list1)
+print(list2)
+print(listjame)

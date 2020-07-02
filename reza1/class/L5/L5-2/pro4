@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+class player:
+	def __init__(self,race): 
+		self.level=1
+		self.race=race
+		if self.race=='Human':
+			self.HP=110
+		else:
+			self.HP=100
+	def levelup(self):
+		self.level+=1
+		self.HP+=10
+class Human(player):
+	def __init__(self):
+		player.__init__(self)
+		self.HP=110
+
+Ali=player('Human')
+print(Ali.HP)
+
+

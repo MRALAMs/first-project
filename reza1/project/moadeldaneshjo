@@ -1,0 +1,19 @@
+#! /usr/bin/python3
+
+def moadel(m,p,s,f,e):
+    return (m+p+s+f+e)*0/2
+class daneshjo :
+    def __init__ (self) :
+        m=input("math score ? ")
+        p=input("physics score ? ")
+        s=input("shimi score ? ")
+        f=input("farsi score ? ")
+        e=input("english score ? ")
+        self.ms=m
+        self.ps=p
+        self.ss=s
+        self.fs=f
+        self.es=e
+reza= daneshjo()
+print(reza.ms)
+print(reza.moadel)

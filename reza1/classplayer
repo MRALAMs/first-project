@@ -1,0 +1,14 @@
+#! /usr/bin/python3
+
+class player:
+    def __init__(self,race):
+        self.hp=100
+        self.ap=10
+        self.dp=10
+        self.mp=5
+        if race =='elf':
+            self.mp=15
+myh=player('human')
+mye=player('elf')
+print(myh.mp)
+print(mye.mp)

@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+def scope_test():
+	def do_local():
+		text='Localll'
+	def do_nonlocal():
+		nonlocal text
+		text='Non Localll'
+	def do_global():
+		global text
+		text='Global Localll'
+	text='test'
+	do_local()
+	print(text)
+	do_nonlocal()
+	print(text)
+	do_global()
+	print(text)
+scope_test()
+print(text)
+

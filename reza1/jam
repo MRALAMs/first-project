@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+
+try:
+    adad=input("adadb bede ")
+    print(int(adad)+1)
+except ValueError as E:
+    print("{} adad nist ".format(adad))
+    
+else:
+    print("ok")
+
+

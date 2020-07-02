@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+mystr='salam'
+myit=iter(mystr)
+print(myit)
+print(next(myit))#s
+print(next(myit))#a
+print(next(myit))#l
+print(next(myit))#a
+print(next(myit))#m
+print(next(myit))#خطا چون این واحد بعدی چیزی در حافظه تعریف نشده است.
+
+
+
+
+

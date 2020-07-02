@@ -1,5 +1,10 @@
 #! /usr/bin/python3
 
-jgdjtygsdfhbsdfb
-
+ali=int(input("moadel ali: "))
+mamad=int(input("moadel mamad: "))
+reza=int(input("moadel reza: "))
+mahdi=int(input("moadel mahdi: "))
+list1=(ali,mamad,reza,mahdi)
+if 0<= list1<=20:
+    print("al;kjdg")
 

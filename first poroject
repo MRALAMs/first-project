@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+
+def moadel(math,physics,dini,exersise):
+    return ((int(math)*3)+(int(physics)*4)+(int(dini)*2)+(int(exersise)*1))*0.1
+mylist =["reza","ali","mohamad"]
+for i in range(len(mylist)):
+    a=input("math score ? ")
+    b=input("physics score ? ")
+    c=input("dini score ? ")
+    d=input("exersise score ?")
+    print (mylist[i],moadel(a,b,c,d))
+

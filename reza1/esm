@@ -1,0 +1,7 @@
+#! /usr/bin/python3
+
+esm=input("esmet chie? ")
+if esm =="Ali":
+    print("welcom")
+else:
+    raise NameError("faghat ali")

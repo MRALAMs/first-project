@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+#Player{race , type , weapon , ...}
+from pro60 import player
+from pro61 import Elf
+class Human(player):
+	def __init__(self):
+		player.__init__(self)
+		self.HP=110
+
+
+
+Ali=Human()
+print(Ali.HP)
+print(Ali.level)
+Zahra=Elf()
+print(Zahra.level)
+print(Zahra.HP)
+Zahra.levelup()
+print(Zahra.level)
+print(Zahra.HP)

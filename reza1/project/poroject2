@@ -1,0 +1,20 @@
+#! /usr/bin/python3
+
+list1=["reza","ali","mahdi"]
+
+listmath=[]
+for i in range(len(list1)):
+    a=input("math score {}?".format(list1[i]))
+    listmath.append(a)
+#print(listmath)
+listphysics=[]
+for i in range(len(list1)):
+    b=input("physics score {}?".format(list1[i]))
+    listphysics.append(b)
+#print(listphysics)
+listfarsi=[]
+for i in range(len(list1)):
+    c=input("farsi score {}?".format(list1[i]))
+    listfarsi.append(c)
+#print(listfarsi)
+

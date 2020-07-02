@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+
+class time :
+    def __init__(self,hours=0,minutes=0,second=0):
+        self.hours=hours
+        self.minutes=minutes
+        self.second=second
+    def __str__(self):
+        return(str(self.hours)+":"+str(self.minutes)+":"+str(self.second))
+    
+time1=time(9,32,55) 
+print(time1)   

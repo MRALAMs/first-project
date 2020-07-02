@@ -1,0 +1,6 @@
+#! /usr/bin/python3
+
+f=open("jame matris" , "r")
+data=f.read()
+print(data)
+f.close()

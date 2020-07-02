@@ -1,0 +1,3 @@
+for i in renge(len(dars)):
+    print ("mean {} score = ".format(dars[i]),(nomarat[0+len(i)]+(nomarat[3+len(i)+](nomarat[6+len(i)])
+    

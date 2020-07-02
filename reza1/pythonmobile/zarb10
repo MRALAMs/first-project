@@ -1,0 +1,7 @@
+#! /usr/bin/python3
+
+def zarb(a,b):
+    return a*b
+for i in range(10):
+    for s in range(10):
+        print(i,"*",s,"=",zarb(i,s))   
